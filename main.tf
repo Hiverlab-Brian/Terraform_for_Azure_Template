@@ -25,7 +25,7 @@ module "networking" {
 
 module "security_group" {
   source                     = "./security-groups"
-  resource_group_name        = module.networking.resource_group_name #module
+  resource_group_name        = module.networking.resource_group_name     #module
   resource_group_location    = module.networking.resource_group_location #module
   security_group             = var.security_group
   security_rule              = var.security_rule
@@ -37,14 +37,14 @@ module "security_group" {
   destination_port_range     = var.destination_port_range
   source_address_prefix      = var.source_address_prefix
   destination_address_prefix = var.destination_address_prefix
-  virtual_network_subnet_id     = module.networking.virtual_network_subnet_id #module
+  virtual_network_subnet_id  = module.networking.virtual_network_subnet_id #module
   current_env                = var.environment
 }
 
 module "jenkins" {
   source                    = "./jenkins"
-  resource_group_name        = module.networking.resource_group_name #module
-  resource_group_location    = module.networking.resource_group_location #module
+  resource_group_name       = module.networking.resource_group_name     #module
+  resource_group_location   = module.networking.resource_group_location #module
   public_ip_name            = var.public_ip
   public_ip_allocation      = var.public_ip_allocation
   network_interface         = var.network_interface

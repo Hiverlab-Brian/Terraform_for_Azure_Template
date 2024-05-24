@@ -1,0 +1,1 @@
+in cli: ssh -i ~/.ssh/azurerm adminuser@20.160.28.169

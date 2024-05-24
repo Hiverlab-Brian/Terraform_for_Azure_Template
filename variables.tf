@@ -4,7 +4,7 @@ variable "resource_group" {
 }
 
 variable "location" {
-  type = string
+  type        = string
   description = "Resource Group Location"
 }
 
@@ -34,7 +34,7 @@ variable "address_prefixes" {
 }
 
 variable "security_group" {
-    type        = string
+  type        = string
   description = "Virtual Network Security Group "
 }
 
@@ -44,42 +44,42 @@ variable "security_rule" {
 }
 
 variable "security_rule_priority" {
-  type = number
+  type        = number
   description = "Rule Priority"
 }
 
 variable "security_rule_direction" {
-  type = string
+  type        = string
   description = "Rule Direction"
 }
 
 variable "security_rule_access" {
-  type = string
+  type        = string
   description = "Rule Access"
 }
 
 variable "security_rule_protocol" {
-  type = string
+  type        = string
   description = "Security Rule Protocol"
 }
 
 variable "source_port_range" {
-  type = string
+  type        = string
   description = "Source Range"
 }
 
 variable "destination_port_range" {
-  type = string
+  type        = string
   description = "Destination Range"
 }
 
 variable "source_address_prefix" {
-  type = string
+  type        = string
   description = "Source Address Prefix"
 }
 
 variable "destination_address_prefix" {
-  type = string
+  type        = string
   description = "Destination Address Prefix"
 }
 
@@ -156,5 +156,5 @@ variable "source_image_version" {
 variable "host_os" {
   type        = string
   description = "Operating system of the virtual machine"
-  default = "windows"
+  default     = "windows"
 }
