@@ -1,8 +1,6 @@
 # Terraform_for_Azure_Template
 This repository serves as a template for setting up terraform in any environment to deploy Azure VMs.
 
-This repository serves as a template for deploying a FastAPI application with Prometheus monitoring and Grafana dashboards, all containerized with Docker.
-
 ## Overview
 
 This template provides a ready-to-use setup for deploying a VM with Azure alongside other needed resources, based on prior configuration solution, with Terraform.
@@ -66,7 +64,7 @@ Ensure the appropriate SSH script for the host OS is available in the /jenkins d
 
 
 ## Documentation
-[Documentation(set up and configuration)](https://docs.google.com/document/d/1V13yVvlGjnnr_MeRa6ydn9yeDXzCmYuBqHHFOziYqHw/edit#heading=h.hnstmjjlgnbw)
+[Documentation (set up and configuration)](https://docs.google.com/document/d/1V13yVvlGjnnr_MeRa6ydn9yeDXzCmYuBqHHFOziYqHw/edit)
 
 ## Authors
 
