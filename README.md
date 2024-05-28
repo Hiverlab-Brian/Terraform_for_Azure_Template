@@ -66,7 +66,7 @@ Ensure the appropriate SSH script for the host OS is available in the /jenkins d
 
 
 ## Documentation
-[Documentation(Maintenance and dashboard set up)](https://docs.google.com/document/d/1V13yVvlGjnnr_MeRa6ydn9yeDXzCmYuBqHHFOziYqHw/edit#heading=h.hnstmjjlgnbw)
+[Documentation(set up and configuration)](https://docs.google.com/document/d/1V13yVvlGjnnr_MeRa6ydn9yeDXzCmYuBqHHFOziYqHw/edit#heading=h.hnstmjjlgnbw)
 
 ## Authors
 
